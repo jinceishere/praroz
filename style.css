@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* .....................navbar................ */
+.nav-bar {
+    height: 9.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff3bf;
+    padding: 0 4.8rem;
+}
+.logo-img {
+    height: 3.2rem;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    gap: 3.2rem;
+}
+
+.list-items:link, .list-items:visited {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: all 0.3s;
+    
+}
+
+.list-items:hover, .list-items:active {
+    color: #e67700;
+}
+
+.contact-lnk:link, .contact-lnk:visited {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #f08c00;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 0.8rem;
+    transition: all 0.3s;
+}
+
+.contact-lnk:hover, .contact-lnk:active {
+    background-color: #e67700;
+
+} 
+
+/* ..................... end navbar................ */
+
+/* ..................... hero................ */
+
+.main-container {
+    background-color: #fff3bf;
+    padding: 4.8rem 0 9.6rem 0;
+}
+.container {
+    width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.first-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+
+.heading {
+    font-size: 5.2rem;
+    font-weight: 900;
+    color: #333;
+    line-height: 1.05;
+    letter-spacing: 0.1px;
+    margin-bottom: 3.2rem;
+}
+
+.sub-head {
+    color: #333;
+    font-size: 2.0rem;
+    margin-bottom: 3.2rem;
+    font-weight: 500;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.6rem;
+}
+.register-btn:link, .register-btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f08c00;
+    color: #fff;
+    padding: 1.2rem 2.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 0.8rem;
+    transition: all 0.3s;
+}
+
+.register-btn:hover, .register-btn:active {
+    background-color: #e67700;
+}
+
+.learn-btn:link, .learn-btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 1.2rem 2.4rem;
+    box-shadow: inset 0 0 0 0.2rem #f08c00;
+    border-radius: 0.8rem;
+    transition: all 0.3s;
+}
+
+.learn-btn:hover, .learn-btn:active {
+    box-shadow: inset 0 0 0 0.2rem #e67700;
+}
+
+.img-cont {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 1.6rem;
+    height: 100%;
+}
+.both  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.sec-img {
+    border-radius: 9.6rem 1.6rem 1.6rem 1.6rem;
+}
+.third-img {
+    border-radius: 1.6rem
+}
+
+/* .....................end hero................ */
+
+/* .....................box................ */
+
+.box{
+    background-color: #023047;
+    display: flex;
+    padding: 4.8rem;
+    text-align: center;
+    gap: 4.8rem;
+    border-radius: 1.6rem;
+}
+
+.icons {
+    height: 3.2rem;
+    width: 3.2rem;
+    stroke: #e67700;
+    margin-bottom: 1.2rem;
+}
+
+.icon-heading {
+    color: #fff3bf;
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.notes {
+    color: #fff3bf;
+    font-size: 1.2rem;
+}
+
+/* .....................end box................ */
+
+
+/* .....................team................ */
+.about-container {
+    padding: 4.8rem 0 9.6rem 0;
+}
+
+.about-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-heading {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f08c00;
+    margin-bottom: 1.6rem;
+}
+
+.team-title {
+    color: #333;
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 0.9;
+    margin-bottom: 3.2rem;
+    letter-spacing: 0.05px;
+}
+.meet-head {
+    text-align: center;
+}
+.team-photo {
+    display: flex;
+    justify-content: space-between;
+}
+.executive {
+    max-width: 20rem;
+    border-radius: 1.6rem;
+}
+
+.photo-bg {
+    background-color: #fff3bf;
+    padding: 1.6rem;
+    border-radius: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    transition: all 0.3s;
+    color: #333;
+}
+
+.name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    
+}
+.post {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.photo-bg:hover {
+    background-color: #023047;
+    color: #fff3bf;
+}
+
+/* .....................end team................ */
+
+/* .....................about us................ */
+.team-container {
+    padding: 4.8rem 0 9.6rem 0;
+}
+
+.company-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.photo-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    gap: 1.6rem;
+}
+
+.team-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.6rem;
+}
+
+.photo-one {
+    grid-row: span 2;
+}
+
+.aboutus-content {
+    color: #333;
+    font-size: 2.0rem;
+    margin-bottom: 3.2rem;
+    font-weight: 500;
+    
+}
+
+.features {
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+    color: #333;
+    
+}
+
+.content-section {
+    padding: 3.2rem;
+}
+
+/* .....................end about us................ */
+
+/* .....................join................ */
+
+.login-container {
+    padding: 4.8rem 0 9.6rem 0;
+}
+.login-box {
+    background: #023047;
+    padding: 4.8rem;
+    display: flex;
+    gap: 3.2rem;
+    border-radius: 1.6rem;
+}
+
+.join-heading {
+    color: #fff3bf;
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+}
+
+.join-note {
+    color: #fff3bf;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 3.2rem;
+}
+
+.login-form {
+    background-color: #fff3bf;
+    padding: 3.2rem;
+    flex: 1;
+    border-radius: 1.6rem;
+}
+
+.login-cont {
+    flex: 2;
+}
+
+.inp-field {
+    display: block;
+    width: 100%;
+    height: 3.2rem;
+    border: none;
+    padding: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border-radius: 0.4rem;
+}
+
+.usrname {
+    margin-bottom: 2.4rem;
+}
+.psd {
+    margin-bottom: 1.6rem;
+}
+
+.line {
+    display: block;
+}
+.remember {
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: #e67700;
+    font-weight: 500;
+}
+
+.rem-lab{
+    font-size: 1.4rem;
+    color: #333;
+    font-weight: 500;
+}
+.rem-field {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.dont-link:link, .dont-link:visited {
+    color: #f08c00;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+    margin-bottom: 1.6rem;
+    font-weight: 500;
+    
+}
+
+.dont-link:hover, .dont-link:active {
+    color: #e67700;
+
+}
+
+.btn:link, .btn:visited {
+    background-color: #f08c00;
+    display: inline-block;
+    padding: 1.2rem 2.4rem;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn:hover, .btn:active {
+    background-color: #e67700;
+}
+
+.happy {
+    display: flex;
+    gap: 2.4rem;
+    align-items: center;
+    
+}
+
+.customers img{
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    margin-right: -1.6rem;
+    border: 0.4rem solid #023047;
+}
+
+.happy-note {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff3bf;
+}
+
+.span-happy {
+    color: #e67700;
+}
+
+
+/* .....................end join................ */
+
+
+.footer-container {
+    padding: 4.8rem 0 9.6rem 0;
+    background-color: #023047;
+}
+
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.footer-logo {
+    height: 3.2rem;
+    width: 18rem;
+}
+
+.menu-footer{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+    
+}
+
+.list-footer{
+    text-decoration: none;
+    
+}
+
+.list-footer:link, .list-footer:visited {
+    display: inline-block;
+    color: #e67700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    transition: all 0.3s;
+    
+}
+
+.copy-right {
+    font-size: 1.6rem;
+    color: #fff3bf;
+}
